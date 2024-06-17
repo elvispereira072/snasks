@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#C50E14"> <!-- Fundo roxo -->
+
+    <TextView
+        android:id="@+id/title_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Aplicativo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" /> <!-- Espaço superior de 16dp -->
+
+    <TextView
+        android:id="@+id/opening_hours_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opening Hours"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" <!-- Espaço superior de 24dp -->
+    android:layout_gravity="center_horizontal"
+    android:textColor="#FFFFFF" /> <!-- Texto em branco -->
+
+    <TextView
+        android:id="@+id/opening_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday - Sunday: 11:00 AM - 10:00 PM"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" <!-- Espaço superior de 16dp -->
+    android:layout_gravity="center_horizontal"
+    android:textColor="#FFFFFF" /> <!-- Texto em branco -->
+
+    <!-- Conteúdo sobre lanches -->
+    <TextView
+        android:id="@+id/snack_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All About Snacks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" <!-- Espaço superior de 24dp -->
+    android:layout_gravity="center_horizontal"
+    android:textColor="#FFFFFF" /> <!-- Texto em branco -->
+
+    <TextView
+        android:id="@+id/snack_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snacks are small portions of food generally eaten between meals. They can be savory or sweet, and range from simple items like fruits and nuts to more complex creations like sandwiches and pastries. Popular snack options include chips, cookies, granola bars, and various kinds of dips. Snacking can provide a quick energy boost and satisfy hunger between meals, making it an essential part of many people's daily diet."
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" <!-- Espaço superior de 16dp -->
+    android:layout_gravity="center_horizontal"
+    android:textColor="#FFFFFF" /> <!-- Texto em branco -->
+
+    <TextView
+        android:id="@+id/snack_description_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The variety of snacks available today is astounding. From healthy options like vegetable sticks and hummus to indulgent treats like chocolate bars and ice cream, there's something for every taste and dietary preference. Many people enjoy experimenting with homemade snacks, such as protein balls, fruit smoothies, or baked goods, which allow for customization and control over ingredients."
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" <!-- Espaço superior de 16dp -->
+    android:layout_gravity="center_horizontal"
+    android:textColor="#FFFFFF" /> <!-- Texto em branco -->
+
+    <TextView
+        android:id="@+id/snack_description_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In recent years, the snack industry has seen a significant shift towards healthier options. Consumers are increasingly looking for snacks that are not only tasty but also nutritious. This has led to a rise in products that are organic, non-GMO, and free from artificial ingredients. Whether for a quick bite on the go or a more substantial mini-meal, snacks continue to evolve to meet the diverse needs and preferences of people around the world."
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" <!-- Espaço superior de 16dp -->
+    android:layout_gravity="center_horizontal"
+    android:textColor="#FFFFFF" /> <!-- Texto em branco -->
+
+    <!-- Imagem anexada -->
+    <ImageView
+        android:id="@+id/attached_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp" <!-- Espaço superior de 24dp -->
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/1_img.xml" /> <!-- Substitua 'your_image' pelo nome real do recurso da sua imagem -->
+
+</LinearLayout>
